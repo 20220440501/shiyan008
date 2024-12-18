@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 500px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+canvas {
+  background: #c5cb76;
+  display: block;
+  margin: 20px auto;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0095DD;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #007bb5;
+}
+
+#auth form {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#auth label {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#auth input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#scoreHistory ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#scoreHistory li {
+  background-color: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
+}
